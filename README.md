@@ -7,10 +7,11 @@
 ```
 
 git clone git@github.com:OR13/DYEL.git
-cd DYEL;
 
-npm install;
+cd DYEL
 
-npm test;
+npm install
+
+npm test
 
 ```
