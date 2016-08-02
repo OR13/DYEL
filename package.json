@@ -1,7 +1,7 @@
 {
   "name": "dyel",
   "version": "1.0.0",
-  "description": "An Unofficial Atlas Wearables NodeJS SDK",
+  "description": "An Unofficial promise based client for the Atlas API",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive api "

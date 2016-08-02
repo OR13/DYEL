@@ -1,6 +1,6 @@
 # DO YOU EVEN LIFT?
 
-###### An Unofficial Atlas Wearables NodeJS SDK
+###### A promise based client for the [Atlas API](https://api.atlaswearables.com/api/docs/v1/).
 
 ## Get Started
 
@@ -14,7 +14,3 @@ npm install;
 npm test;
 
 ```
-
-## About 
-
-A promise based client for the [Atlas API](https://api.atlaswearables.com/api/docs/v1/).
