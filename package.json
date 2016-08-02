@@ -1,0 +1,17 @@
+{
+  "name": "dyel",
+  "version": "1.0.0",
+  "description": "An Unofficial Atlas Wearables NodeJS SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive api "
+  },
+  "author": "orie@or13.io",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.0",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.0"
+  }
+}
