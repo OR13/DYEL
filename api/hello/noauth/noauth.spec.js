@@ -18,15 +18,20 @@ describe('.hello_noauth(...)', function () {
             api_secret: dyel.config.credentials.api_secret
         })
 
-            .then((statusObject) => {
-                // console.log( sessionObject.full_name, sessionObject.weight_in_pounds );
-
-                assert.isObject(statusObject);
+            .then((data) => {
+        
+                assert.isObject(data);
+                // status
+                assert.isString(data.status);
+                assert(data.status === 'ok');
+                // errors[]
+                assert.isArray(data.errors);
 
             })
             .catch((err) => {
                 // API call failed...
                 // console.log('err: ', err);
+                 assert(err === undefined);
             });
 
     });
