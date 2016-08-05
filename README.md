@@ -2,7 +2,7 @@
 
 ###### A promise based client for the [Atlas API](https://api.atlaswearables.com/api/docs/v1/).
 
-build status coming soon...
+[![Build Status](https://travis-ci.org/OR13/DYEL.svg?branch=master)](https://travis-ci.org/OR13/DYEL)
 
 ## Get Started
 
