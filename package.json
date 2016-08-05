@@ -2,7 +2,7 @@
   "name": "dyel",
   "version": "1.0.0",
   "description": "An Unofficial promise based client for the Atlas API",
-  "main": "index.js",
+  "main": "dyel.js",
   "scripts": {
     "test": "mocha --recursive api "
   },

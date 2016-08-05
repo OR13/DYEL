@@ -2,6 +2,8 @@
 
 ###### A promise based client for the [Atlas API](https://api.atlaswearables.com/api/docs/v1/).
 
+build status coming soon...
+
 ## Get Started
 
 ```
