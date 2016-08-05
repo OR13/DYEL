@@ -31,7 +31,7 @@ var assert = require('chai').assert;
                 })
                 .catch((err) => {
                     // API call failed...
-                    console.log('err: ', err);
+                    // console.log('err: ', err);
                 });
 
         });

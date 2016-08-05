@@ -19,7 +19,6 @@ describe('.hello_noauth(...)', function () {
         })
 
             .then((statusObject) => {
-
                 // console.log( sessionObject.full_name, sessionObject.weight_in_pounds );
 
                 assert.isObject(statusObject);
@@ -27,7 +26,7 @@ describe('.hello_noauth(...)', function () {
             })
             .catch((err) => {
                 // API call failed...
-                console.log('err: ', err);
+                // console.log('err: ', err);
             });
 
     });

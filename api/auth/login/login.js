@@ -18,7 +18,7 @@ module.exports = function (credentials) {
         })
         .catch(function (err) {
             // API call failed...
-            console.log('err: ', err);
+            // console.log('err: ', err);
         });
 
 };

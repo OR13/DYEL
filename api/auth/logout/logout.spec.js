@@ -25,7 +25,7 @@ describe('.auth_logout(...)', function () {
             })
             .catch((err) => {
                 // API call failed...
-                console.error(err);
+                // console.error(err);
             });
     });
 

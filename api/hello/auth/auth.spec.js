@@ -27,7 +27,7 @@ describe('.hello_noauth(...)', function () {
             })
             .catch((err) => {
                 // API call failed...
-                console.log('err: ', err);
+                // console.log('err: ', err);
             });
 
     });
