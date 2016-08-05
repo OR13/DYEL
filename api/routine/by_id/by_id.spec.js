@@ -1,5 +1,5 @@
 
-var dyel = require('../../../../dyel');
+var dyel = require('../../../dyel');
 
 var assert = require('chai').assert;
 
